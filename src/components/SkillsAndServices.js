@@ -7,7 +7,7 @@ const SkillsAndServices = () => {
     <div className="flex flex-col items-center gap-14 bg-purple-700 text-white px-10 py-20">
       <div className="w-1/7">
         <h1 className="text-4xl">
-          Services & <span className="text-orange">Skills</span>
+          Services & <span className="text-orange-200">Skills</span>
         </h1>
         <div className="border-b-2 border-white"></div>
       </div>
@@ -37,7 +37,9 @@ const SkillsAndServices = () => {
             >
               <p className="w-[20%] font-semibold text-lg">{skill.skillname}</p>
               <div className="w-full bg-white h-4 flex items-center px-1">
-                <div className={`bg-orange w-[${skill.percentage}] h-2`}></div>
+                <div
+                  className={`bg-orange-200 w-[${skill.percentage}] h-2`}
+                ></div>
               </div>
             </div>
           ))}

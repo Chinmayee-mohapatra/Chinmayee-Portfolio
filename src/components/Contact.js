@@ -90,7 +90,7 @@ const Contact = () => {
         {/* Contact form */}
         <div className="w-1/2 relative">
           <motion.div
-            className="absolute top-[20%] left-[30%] mx-auto stroke-orange"
+            className="absolute top-[20%] left-[30%] mx-auto stroke-orange-200"
             initial={{ opacity: 1 }}
             whileInView={{ opacity: 0, zIndex: -1 }}
             transition={{ delay: 3, duration: 1 }}

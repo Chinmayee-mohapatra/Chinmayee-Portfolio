@@ -5,7 +5,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="font-exo">
+    <div className="font-exo w-screen">
       <Header />
       <Body />
       <Footer />

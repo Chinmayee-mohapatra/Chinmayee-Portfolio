@@ -4,7 +4,7 @@ import AboutSection from "./AboutSection";
 
 const Body = () => {
   return (
-    <div>
+    <div className="w-screen">
       <IntroSection />
       <AboutSection />
     </div>
