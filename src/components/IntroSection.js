@@ -1,6 +1,6 @@
 import React from "react";
 import BANNER from "../assests/Banner Image.png";
-
+import Resume from "../assests/Chinmayee_Mohapatra_RESUME.pdf";
 const IntroSection = () => {
   return (
     <div className="w-full bg-purple-700 flex justify-between items-center text-white p-20 gap-4">
@@ -17,9 +17,16 @@ const IntroSection = () => {
         </p>
 
         <div>
-          <button className="px-8 py-1 bg-orange-400 rounded-full font-semibold mt-4">
-            Download CV
-          </button>
+          <a
+            href={Resume}
+            download="Chinmayee_Mohapatra_RESUME"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-1 bg-orange-400 rounded-full font-semibold mt-4">
+              Download CV
+            </button>
+          </a>
         </div>
       </div>
       {/* Banner */}
