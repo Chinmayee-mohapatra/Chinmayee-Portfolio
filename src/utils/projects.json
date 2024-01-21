@@ -1,0 +1,17 @@
+[
+  {
+    "projectName": "FoodAddaa",
+    "projectLink": "https://foodaddaa-e39d7.web.app/",
+    "projectImage": "https://res.cloudinary.com/dmvgiebxm/image/upload/v1699462158/portfolio-projects/foodAddaa_kcy8rk.png"
+  },
+  {
+    "projectName": "Youtube",
+    "projectLink": "https://github.com/Chinmayee-mohapatra/namaste-youtube",
+    "projectImage": "https://res.cloudinary.com/dmvgiebxm/image/upload/v1699462768/portfolio-projects/youtube_bxygjr.png"
+  },
+  {
+    "projectName": "Netflix-GPT",
+    "projectLink": "https://netflix-gpt-ashy.vercel.app/",
+    "projectImage": "https://res.cloudinary.com/dmvgiebxm/image/upload/v1699462601/portfolio-projects/netflix-gpt_l9kthl.png"
+  }
+]

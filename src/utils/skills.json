@@ -1,0 +1,22 @@
+[
+  {
+    "skillname": "HTML",
+    "percentage": "90%"
+  },
+  {
+    "skillname": "CSS",
+    "percentage": "80%"
+  },
+  {
+    "skillname": "Tailwind CSS",
+    "percentage": "90%"
+  },
+  {
+    "skillname": "JavaScript",
+    "percentage": "80%"
+  },
+  {
+    "skillname": "React JS",
+    "percentage": "90%"
+  }
+]
