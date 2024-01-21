@@ -11,18 +11,27 @@ const Header = () => {
 
         <div>
           <ul className="flex gap-10 font-semibold tracking-wider">
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Skills</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#services-skills">Services</a>
+            </li>
+            <li>
+              <a href="#services-skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
 
         <div>
           <button className="bg-white text-purple-700 border-deep-blue border-2 hover:border-purple-700 font-medium rounded-md px-4 py-2 hover:scale-105 duration-200">
-            Hire Me
+            <a href="#contact">Hire Me</a>
           </button>
         </div>
       </div>

@@ -75,7 +75,7 @@ const Contact = () => {
           </motion.h2>
           <motion.div variants={variants} className="flex items-center gap-2">
             <FiPhone />
-            <p>+8801567-953483</p>
+            <p>+919861909090</p>
           </motion.div>
           <motion.div variants={variants} className="flex items-center gap-2">
             <AiOutlineMail />

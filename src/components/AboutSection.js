@@ -7,14 +7,21 @@ import Contact from "./Contact";
 const AboutSection = () => {
   return (
     <div>
-      {/* About section */}
-      <AboutMe />
+      <section id="about">
+        <AboutMe />
+      </section>
       {/* Services and skills */}
-      <SkillsAndServices />
+      <section id="services-skills">
+        <SkillsAndServices />
+      </section>
       {/* Portfolio */}
-      <Portfolio />
+      <section id="projects">
+        <Portfolio />
+      </section>
       {/* Contact */}
-      <Contact />
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 };

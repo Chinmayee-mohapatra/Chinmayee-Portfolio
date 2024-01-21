@@ -21,7 +21,11 @@ module.exports = {
       },
       "light-purple": "#461959",
       "light-violet": "#43366A",
-      orange: "#F86F03",
+      orange: {
+        200: "#f7b783",
+        400: "#fa8c34",
+        600: "#F86F03",
+      },
     },
     fontFamily: {
       exo: "Exo",
